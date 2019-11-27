@@ -26,20 +26,30 @@ a {
 	margin: 0 auto;
 }
 
-.book {	
-	display: flex;	
-	vertical-align: top;
+.book {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	
 	padding-top: 60px;
 }
 
 .box-ekt {
-	width: 30%;
-	margin-right: 60px;
+	
+	width: 50%;	
+	margin-right: 60px;	
 }
 
+.book-ekt{
+	width: 70%;	
+}
+
+
+
 .description {
-	width: 34%;
+	width: 50%;
 	padding-top: 50px;
+	
 }
 
 .title-queen {
@@ -90,7 +100,9 @@ a {
 }
 
 .link {
-	padding: 15px 30px;
+	display: inline-block;
+	margin-top: 10px;
+	padding: 13px 30px;
 	font-family: Tahoma;
 	font-size: 18px;
 	font-weight: 700;
@@ -112,7 +124,10 @@ a {
 }
 
 .delivery-items {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-ms-flex-pack: distribute;
 	justify-content: space-around;
 	text-align: center;
 	color: #333333;
@@ -127,7 +142,9 @@ a {
 .shipped,
 .mailbox {
 	position: relative;
+	-ms-flex-preferred-size: 20%;
 	flex-basis: 20%;
+	margin-right: 20px;
 	padding-top: 100px;
 }
 
@@ -194,13 +211,21 @@ a {
 	line-height: 27px;
 }
 
-.purchase-items {	
+.purchase-items {
 	height: 600px;
-	display: flex;	
-	align-items: center;	
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: flex-start;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
 
 .items {
-	flex-basis: 25%;
+	-ms-flex-preferred-size: 25%;
+	flex-basis: 20%;
+	margin-right: 25px;
 }
