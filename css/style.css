@@ -1,0 +1,206 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #f05a22;
+}
+
+.wrapper {
+	width: 100%;
+	background-color: #ffffff;
+}
+
+.main {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.book {	
+	display: flex;	
+	vertical-align: top;
+	padding-top: 60px;
+}
+
+.box-ekt {
+	width: 30%;
+	margin-right: 60px;
+}
+
+.description {
+	width: 34%;
+	padding-top: 50px;
+}
+
+.title-queen {
+	color: #000000;
+	font-family: Tahoma;
+	font-size: 48px;
+	font-weight: 700;
+
+}
+
+.queen-ekt {
+	color: #000000;
+	font-family: Tahoma;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 60px
+}
+
+.description-ekt {
+	color: #000000;
+	font-family: Tahoma;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px;
+}
+
+.price {
+	display: block;
+	font-family: Tahoma;
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 27px;
+	color: #313131;
+	line-height: 120px;
+}
+
+.btn {
+	margin-right: 40px;
+	padding: 15px 40px;
+	font-family: Tahoma;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 27px;
+	color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	background-color: #f05a22;
+}
+
+.link {
+	padding: 15px 30px;
+	font-family: Tahoma;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 27px;
+	color: #f05a22;
+	border-radius: 5px;
+	border: 2px solid #f05a22;
+}
+
+.delivery-title {
+	color: #333333;
+	font-family: Tahoma;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 27px;
+	text-align: center;
+	line-height: 100px;
+
+}
+
+.delivery-items {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	color: #333333;
+	font-family: "Open Sans";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
+}
+
+.shopping,
+.card,
+.shipped,
+.mailbox {
+	position: relative;
+	flex-basis: 20%;
+	padding-top: 100px;
+}
+
+.shopping::after {
+	position: absolute;
+	left: 40%;
+	bottom: 45%;
+	display: block;
+	content: "";
+	width: 54px;
+	height: 50px;
+	background-image: url("/img/Shopping_cart.svg");
+	background-repeat: no-repeat;
+}
+
+.card::after {
+	position: absolute;
+	left: 40%;
+	bottom: 45%;
+	display: block;
+	content: "";
+	width: 58px;
+	height: 38px;
+	background-image: url("/img/Credit_card.svg");
+	background-repeat: no-repeat;
+}
+
+.shipped::after {
+	position: absolute;
+	left: 40%;
+	bottom: 45%;
+	display: block;
+	content: "";
+	width: 58px;
+	height: 36px;
+	background-image: url("/img/Shipped_копия_2.svg");
+	background-repeat: no-repeat;
+}
+
+.mailbox::after {
+	position: absolute;
+	left: 40%;
+	bottom: 45%;
+	display: block;
+	content: "";
+	width: 54px;
+	height: 40px;
+	background-image: url("/img/Mailbox.svg");
+	background-repeat: no-repeat;
+}
+
+.purchase {
+	margin-top: 80px;
+	margin-bottom: 120px;
+}
+
+.purchase-book {
+	margin-bottom: 100px;
+	text-align: center;
+	color: #333333;
+	font-family: Tahoma;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 27px;
+}
+
+.purchase-items {	
+	height: 600px;
+	display: flex;	
+	align-items: center;	
+	flex-wrap: wrap;
+}
+
+.items {
+	flex-basis: 25%;
+}
