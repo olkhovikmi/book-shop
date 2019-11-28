@@ -34,21 +34,18 @@ a {
 .box-ekt {
 	display: inline-block;
 	width: 40%;
-	margin-left: 150px;	
+	padding-left: 80px;
 }
 
 .book-ekt{
 	width: 70%;	
  } 
 
-
-
 .description {
 	display: inline-block;
 	width: 45%;
 	padding-top: 50px;
-	vertical-align: top;
-	
+	vertical-align: top;	
 }
 
 .title-queen {
@@ -141,7 +138,7 @@ a {
 	-ms-flex-preferred-size: 20%;
 	flex-basis: 20%;
 	margin-right: 35px;
-	padding-top: 80px;
+	padding-top: 80px;	
 }
 
 .shopping::after {
